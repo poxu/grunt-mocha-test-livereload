@@ -11,14 +11,12 @@ node version - 4.1.0
 
 Steps to reproduce
 ------------------------
-1. Create a project with a single test, which always passes
-2. Add Gruntfile.js as described in Readme.md 
-3. Set livereload to any port you want
-4  Set spawn to false
-5. Run npm install
-6. Run grunt watch
-7. Open Gruntfile.js and save it
-8. Save it again
+1. clone the project
+2. npm install
+3. npm install -g grunt-cli 
+4. grunt watch
+5. Open Gruntfile.js and save it
+6. Save it again
 
 Expected result
 -------------------
