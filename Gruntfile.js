@@ -15,7 +15,7 @@ module.exports = function(grunt) {
     },
 
     watch: {
-
+    js: {
         options: {
           spawn: false, //set to true to stop the problem from happening
           livereload: 12345, //port number doesn't matter, the problem is reproduced on any port
